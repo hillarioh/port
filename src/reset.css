@@ -120,14 +120,14 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 *,
 *::before,
 *::after {
@@ -141,7 +141,7 @@ table {
 
 body {
   background-color: #f2d2bd;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bolder;
   letter-spacing: 0.2em;
   color: #6c757d;
@@ -283,4 +283,13 @@ body {
   padding: 1rem;
   color: rgba(0, 0, 0, 0.5);
   font-weight: bolder;
+}
+
+#category-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cat-card {
+  flex: 30%;
 }
